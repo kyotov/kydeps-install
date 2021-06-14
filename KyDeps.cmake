@@ -23,3 +23,6 @@ endfunction()
 
 init()
 list(APPEND CMAKE_MODULE_PATH "${KYDEPS_INSTALL_ROOT_PATH}")
+
+include(KyDepsOptions)
+
