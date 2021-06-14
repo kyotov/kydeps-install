@@ -19,7 +19,7 @@ include_guard(GLOBAL)
 
 KyDepsPopulate(zstd 1c0d396f25037c7ee5c9519d0439fec6601b1dca
     "https://kydeps.s3.us-east-2.amazonaws.com/zstd_1c0d396f25037c7ee5c9519d0439fec6601b1dca.zip"
-    2596e268d3cd245ca071da3da01e8985b6c0b09f)
+    8ed787483befd49685dc7aa12f3698a83463922f)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/zstd/zstd_1c0d396f25037c7ee5c9519d0439fec6601b1dca/install")
 

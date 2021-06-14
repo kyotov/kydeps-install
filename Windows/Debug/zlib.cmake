@@ -19,7 +19,7 @@ include_guard(GLOBAL)
 
 KyDepsPopulate(zlib e6f55327533b4cbea5a411bb8dca73864c349b76
     "https://kydeps.s3.us-east-2.amazonaws.com/zlib_e6f55327533b4cbea5a411bb8dca73864c349b76.zip"
-    5f731c8c1561f6b7bba7e602fdd3ff68fc0873c7)
+    a49f3149ae7e8f960b36cc6e08dc68c15e0885e8)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/zlib/zlib_e6f55327533b4cbea5a411bb8dca73864c349b76/install")
 
