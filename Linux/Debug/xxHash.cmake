@@ -21,6 +21,6 @@ KyDepsPopulate(xxHash 238a536d9957e58f7449f2d44ececfea806f3507
     "https://kydeps.s3.us-east-2.amazonaws.com/xxHash_238a536d9957e58f7449f2d44ececfea806f3507.zip"
     61a19f0c01d1150657d9575c2b336d7eddd767a0)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/xxHash/xxHash_238a536d9957e58f7449f2d44ececfea806f3507/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/xxHash/xxHash_238a536d9957e58f7449f2d44ececfea806f3507/install")
 
 find_package(xxHash REQUIRED NO_MODULE)

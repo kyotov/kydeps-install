@@ -21,6 +21,6 @@ KyDepsPopulate(gflags 532cf33544f6adf420c66b2f72d265499cb00d75
     "https://kydeps.s3.us-east-2.amazonaws.com/gflags_532cf33544f6adf420c66b2f72d265499cb00d75.zip"
     f7b3f58e5f7db5fbf8f910f9023a42837252d101)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/gflags/gflags_532cf33544f6adf420c66b2f72d265499cb00d75/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/gflags/gflags_532cf33544f6adf420c66b2f72d265499cb00d75/install")
 
 find_package(gflags REQUIRED NO_MODULE)

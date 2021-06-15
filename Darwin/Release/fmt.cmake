@@ -21,6 +21,6 @@ KyDepsPopulate(fmt 4568b89f80f5d19daab79659f059a9901a41cfe3
     "https://kydeps.s3.us-east-2.amazonaws.com/fmt_4568b89f80f5d19daab79659f059a9901a41cfe3.zip"
     eaf4d87d78af09373323084597868e9d32f81c68)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/fmt/fmt_4568b89f80f5d19daab79659f059a9901a41cfe3/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/fmt/fmt_4568b89f80f5d19daab79659f059a9901a41cfe3/install")
 
 find_package(fmt REQUIRED NO_MODULE)

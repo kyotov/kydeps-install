@@ -21,6 +21,6 @@ KyDepsPopulate(GTest 2ec40d9c2b205cdb6eaaf713815782d66598788d
     "https://kydeps.s3.us-east-2.amazonaws.com/GTest_2ec40d9c2b205cdb6eaaf713815782d66598788d.zip"
     d54dcbe840706fc6a8153877f0bd164a4c70ed20)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/GTest/GTest_2ec40d9c2b205cdb6eaaf713815782d66598788d/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_2ec40d9c2b205cdb6eaaf713815782d66598788d/install")
 
 find_package(GTest REQUIRED NO_MODULE)

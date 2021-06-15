@@ -21,6 +21,6 @@ KyDepsPopulate(llvm 36b50b1a042d2f5c48507ef1788fcc1fa3c5e275
     "https://kydeps.s3.us-east-2.amazonaws.com/llvm_36b50b1a042d2f5c48507ef1788fcc1fa3c5e275.zip"
     6240e170ee5aa0c65f9dd7ff03f68e3e8e106c3e)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/llvm/llvm_36b50b1a042d2f5c48507ef1788fcc1fa3c5e275/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/llvm/llvm_36b50b1a042d2f5c48507ef1788fcc1fa3c5e275/install")
 
 find_program(CLANG_TIDY REQUIRED NAMES clang-tidy)

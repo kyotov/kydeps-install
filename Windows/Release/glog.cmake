@@ -24,6 +24,6 @@ KyDepsPopulate(glog f8a10f76b16104163f7bc499b17e872dd4f944f6
     "https://kydeps.s3.us-east-2.amazonaws.com/glog_f8a10f76b16104163f7bc499b17e872dd4f944f6.zip"
     1c2201fda2b346dfbfece9fb7f00ea7e79f834a3)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/glog/glog_f8a10f76b16104163f7bc499b17e872dd4f944f6/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/glog/glog_f8a10f76b16104163f7bc499b17e872dd4f944f6/install")
 
 find_package(glog REQUIRED NO_MODULE)

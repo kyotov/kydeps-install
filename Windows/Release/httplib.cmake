@@ -24,6 +24,6 @@ KyDepsPopulate(httplib 04c49d52c477018d0758caa604c21df7e6dff257
     "https://kydeps.s3.us-east-2.amazonaws.com/httplib_04c49d52c477018d0758caa604c21df7e6dff257.zip"
     dca56b2354ab33ff82489e88a2ed70ea45a6fabf)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/httplib/httplib_04c49d52c477018d0758caa604c21df7e6dff257/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/httplib/httplib_04c49d52c477018d0758caa604c21df7e6dff257/install")
 
 find_package(httplib REQUIRED NO_MODULE)

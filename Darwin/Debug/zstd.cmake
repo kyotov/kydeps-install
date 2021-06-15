@@ -21,6 +21,6 @@ KyDepsPopulate(zstd a1101b55fe1e686da5fa966e8bf472e1735fa655
     "https://kydeps.s3.us-east-2.amazonaws.com/zstd_a1101b55fe1e686da5fa966e8bf472e1735fa655.zip"
     53accfb02403607e5de9ea8e8e78ad549c5a2887)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/zstd/zstd_a1101b55fe1e686da5fa966e8bf472e1735fa655/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zstd/zstd_a1101b55fe1e686da5fa966e8bf472e1735fa655/install")
 
 find_package(zstd REQUIRED NO_MODULE)

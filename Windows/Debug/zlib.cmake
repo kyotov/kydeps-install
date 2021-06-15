@@ -21,6 +21,6 @@ KyDepsPopulate(zlib e6f55327533b4cbea5a411bb8dca73864c349b76
     "https://kydeps.s3.us-east-2.amazonaws.com/zlib_e6f55327533b4cbea5a411bb8dca73864c349b76.zip"
     4aa228552a9ef76c9048cb0908553736291cb8b1)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/zlib/zlib_e6f55327533b4cbea5a411bb8dca73864c349b76/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zlib/zlib_e6f55327533b4cbea5a411bb8dca73864c349b76/install")
 
 find_package(zlib REQUIRED NO_MODULE)

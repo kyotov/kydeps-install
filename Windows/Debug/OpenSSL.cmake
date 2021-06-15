@@ -26,6 +26,6 @@ KyDepsPopulate(OpenSSL ac910f55f9b60f5b6d08724a136603ad18f007c7
     "https://kydeps.s3.us-east-2.amazonaws.com/OpenSSL_ac910f55f9b60f5b6d08724a136603ad18f007c7.zip"
     82ba48cc1b8adb1e2cafd60a7f6c1b527d11dadb)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/OpenSSL/OpenSSL_ac910f55f9b60f5b6d08724a136603ad18f007c7/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/OpenSSL/OpenSSL_ac910f55f9b60f5b6d08724a136603ad18f007c7/install")
 
 find_package(OpenSSL REQUIRED)
