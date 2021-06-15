@@ -22,7 +22,7 @@ include(gflags)
 
 KyDepsPopulate(glog 1c0dbb59f1380a5097722edb97aec55a48f2421c
     "https://kydeps.s3.us-east-2.amazonaws.com/glog_1c0dbb59f1380a5097722edb97aec55a48f2421c.zip"
-    741fbbbb4a94c2c9e299b07ec140273bbd2f5563)
+    2ceff32c0aaca930c3ff32300a6da2915775344a)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/glog/glog_1c0dbb59f1380a5097722edb97aec55a48f2421c/install")
 

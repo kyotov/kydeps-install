@@ -19,7 +19,7 @@ include_guard(GLOBAL)
 
 KyDepsPopulate(xxHash fd879d41ee597b60b7bac6a811894c186b695967
     "https://kydeps.s3.us-east-2.amazonaws.com/xxHash_fd879d41ee597b60b7bac6a811894c186b695967.zip"
-    89054e8bb4ee449677cfca0b78d6d6f22c792bde)
+    8211c75039ff2795c4440d6263603016548f8a14)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/xxHash/xxHash_fd879d41ee597b60b7bac6a811894c186b695967/install")
 
