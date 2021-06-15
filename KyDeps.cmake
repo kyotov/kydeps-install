@@ -3,6 +3,9 @@ include_guard(GLOBAL)
 include(FetchContent)
 
 function(KyDepsPopulate PACKAGE_NAME PACKAGE_HASH PACKAGE_URL PACKAGE_URL_HASH)
+    list(APPEND CMAKE_MESSAGE_INDENT "${PACKAGE_NAME} : ")
+
+    message(STATUS "checking ${PACKAGE_URL}...")
 
     FetchContent_Declare(${PACKAGE_HASH}
             URL ${PACKAGE_URL}
@@ -15,6 +18,9 @@ function(KyDepsPopulate PACKAGE_NAME PACKAGE_HASH PACKAGE_URL PACKAGE_URL_HASH)
         FetchContent_Populate(${PACKAGE_HASH})
     endif()
 
+    message(STATUS "done!")
+
+    list(POP_BACK CMAKE_MESSAGE_INDENT)
 endfunction()
 
 function(init)

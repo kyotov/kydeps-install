@@ -9,7 +9,7 @@ set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 # TODO: add other compilers (gcc, clang)
 #
 if (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-    add_compile_options(-nologo)
+    add_compile_options(-nologo -EHsc)
     add_link_options(-nologo)
 elseif (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     #add_link_options(-static-libgcc -static-libstdc++ -static)
