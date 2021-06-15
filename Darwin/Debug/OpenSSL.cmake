@@ -22,7 +22,7 @@ include(zlib)
 
 KyDepsPopulate(OpenSSL a0af4d88731362061cc0c7f9b413b690ef658226
     "https://kydeps.s3.us-east-2.amazonaws.com/OpenSSL_a0af4d88731362061cc0c7f9b413b690ef658226.zip"
-    4c9553eb13128e6edd25c7b7852c74629ffc429a)
+    66127a134fce6a19e83f5a5585e4442b5681628b)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/OpenSSL/OpenSSL_a0af4d88731362061cc0c7f9b413b690ef658226/install")
 
