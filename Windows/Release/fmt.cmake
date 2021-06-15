@@ -19,7 +19,7 @@ include_guard(GLOBAL)
 
 KyDepsPopulate(fmt 09145a3eb2d80f19b94ecba661030cb656363ea1
     "https://kydeps.s3.us-east-2.amazonaws.com/fmt_09145a3eb2d80f19b94ecba661030cb656363ea1.zip"
-    e8c151a77c637fbce928837bcacf5c12f826ecd7)
+    a9ca0c00b4337f174b69902c8a9e5c2823607f89)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/fmt/fmt_09145a3eb2d80f19b94ecba661030cb656363ea1/install")
 

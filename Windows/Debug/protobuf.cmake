@@ -22,7 +22,7 @@ include(zlib)
 
 KyDepsPopulate(protobuf c332cb3a2d78af6cd1d139f2f36925f8a705fabf
     "https://kydeps.s3.us-east-2.amazonaws.com/protobuf_c332cb3a2d78af6cd1d139f2f36925f8a705fabf.zip"
-    dbb808c9f12ebe3ab3636b3555256d4608955bf9)
+    85e088f43cb1febaabbd396312054b4682b9cd85)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/.deps/protobuf/protobuf_c332cb3a2d78af6cd1d139f2f36925f8a705fabf/install")
 
