@@ -18,7 +18,7 @@ include_guard(GLOBAL)
 
 
 KyDepsPopulate(nginx 5284c7d072eba4febc728eb18004c8e307b74d13
-    "file://C:/kamen/clion/kydeps_new/build/Release/_/nginx_5284c7d072eba4febc728eb18004c8e307b74d13/package.zip"
+    "https://kydeps.s3.us-east-2.amazonaws.com/nginx_5284c7d072eba4febc728eb18004c8e307b74d13.zip"
     0a7758d8eb40b6bb8d7453c941090eb7f1127ec8)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/nginx/nginx_5284c7d072eba4febc728eb18004c8e307b74d13/install")

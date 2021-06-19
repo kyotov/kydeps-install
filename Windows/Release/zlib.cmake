@@ -18,8 +18,8 @@ include_guard(GLOBAL)
 
 
 KyDepsPopulate(zlib b57037d789c3670802146ce0864b3ff261695fbb
-    "file://C:/kamen/clion/kydeps_new/build/Release/_/zlib_b57037d789c3670802146ce0864b3ff261695fbb/package.zip"
-    a415a880e470ef476ece9ea3c0022dcd14a01244)
+    "https://kydeps.s3.us-east-2.amazonaws.com/zlib_b57037d789c3670802146ce0864b3ff261695fbb.zip"
+    4c9b794758be0a32107979acf06a78c5d01798bf)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zlib/zlib_b57037d789c3670802146ce0864b3ff261695fbb/install")
 

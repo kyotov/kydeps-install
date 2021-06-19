@@ -21,8 +21,8 @@ include_guard(GLOBAL)
 include(zlib)
 
 KyDepsPopulate(protobuf 32793ceb02866071ded30a9141c37ab4ecee75ce
-    "file://C:/kamen/clion/kydeps_new/build/Debug/_/protobuf_32793ceb02866071ded30a9141c37ab4ecee75ce/package.zip"
-    1bfe0283c56863bf04de981aec8c2428ef3e385f)
+    "https://kydeps.s3.us-east-2.amazonaws.com/protobuf_32793ceb02866071ded30a9141c37ab4ecee75ce.zip"
+    cf8268d0b2d1bee6ce88aa9db995315ba5d27256)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/protobuf/protobuf_32793ceb02866071ded30a9141c37ab4ecee75ce/install")
 
