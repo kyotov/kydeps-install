@@ -24,7 +24,7 @@ include(zlib)
 
 KyDepsPopulate(OpenSSL 4b1d711d0adf6198e422350eee544c2d61cab2b7
     "file://C:/kamen/clion/kydeps_new/build/Release/_/OpenSSL_4b1d711d0adf6198e422350eee544c2d61cab2b7/package.zip"
-    139f823bfd13505360aa0b809e5bd27242f66b91)
+    79fc47535128267b8f12b0114079252488bf4367)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/OpenSSL/OpenSSL_4b1d711d0adf6198e422350eee544c2d61cab2b7/install")
 

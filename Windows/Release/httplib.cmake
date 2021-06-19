@@ -22,7 +22,7 @@ include(OpenSSL)
 
 KyDepsPopulate(httplib 6cdbe6cb9275fd6be7fe26bbceb460b8af231d22
     "file://C:/kamen/clion/kydeps_new/build/Release/_/httplib_6cdbe6cb9275fd6be7fe26bbceb460b8af231d22/package.zip"
-    10b8223342271846f5cf85a8491b88ce11df82f7)
+    89cb54ff79f0ab16838ca1f0a73fe7f45fbb091e)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/httplib/httplib_6cdbe6cb9275fd6be7fe26bbceb460b8af231d22/install")
 
