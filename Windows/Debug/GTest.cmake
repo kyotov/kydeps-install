@@ -6,21 +6,21 @@ https://github.com/google/googletest.git
 GIT_TAG
 release-1.10.0
 REVISION
-703bd9caab50b139428cea1aaff9974ebee5742e
+1691562f842209289d1da949363468387260482a
 FLAVOR
 64-bit Windows Debug
 HASH
-2ec40d9c2b205cdb6eaaf713815782d66598788d
+a102673bb83a3f42009e76b13f68d4b0370f0f8d
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(GTest 2ec40d9c2b205cdb6eaaf713815782d66598788d
-    "https://kydeps.s3.us-east-2.amazonaws.com/GTest_2ec40d9c2b205cdb6eaaf713815782d66598788d.zip"
-    570444f66561ee90ff6ff0737c5033fa5cdc4bc2)
+KyDepsPopulate(GTest a102673bb83a3f42009e76b13f68d4b0370f0f8d
+    "file://C:/kamen/clion/kydeps_new/build/Debug/_/GTest_a102673bb83a3f42009e76b13f68d4b0370f0f8d/package.zip"
+    556cf28c1218a841ffd3b1fc6af28754b5f1d869)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_2ec40d9c2b205cdb6eaaf713815782d66598788d/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_a102673bb83a3f42009e76b13f68d4b0370f0f8d/install")
 
 find_package(GTest REQUIRED NO_MODULE)

@@ -6,13 +6,13 @@ https://github.com/protocolbuffers/protobuf.git
 GIT_TAG
 v3.15.8
 REVISION
-436bd7880e458532901c58f4d9d1ea23fa7edd52
+1691562f842209289d1da949363468387260482a
 FLAVOR
 64-bit Windows Debug
 DEPENDS
-zlib e6f55327533b4cbea5a411bb8dca73864c349b76
+zlib 177f32fcc7bf2a6d723d849cb7b12d5d3f891269
 HASH
-c332cb3a2d78af6cd1d139f2f36925f8a705fabf
+32793ceb02866071ded30a9141c37ab4ecee75ce
 
 -------------------------------------------- ]]
 
@@ -20,10 +20,10 @@ include_guard(GLOBAL)
 
 include(zlib)
 
-KyDepsPopulate(protobuf c332cb3a2d78af6cd1d139f2f36925f8a705fabf
-    "https://kydeps.s3.us-east-2.amazonaws.com/protobuf_c332cb3a2d78af6cd1d139f2f36925f8a705fabf.zip"
-    88568ef4ba6b53a0810b09a52958d74a2fb697be)
+KyDepsPopulate(protobuf 32793ceb02866071ded30a9141c37ab4ecee75ce
+    "file://C:/kamen/clion/kydeps_new/build/Debug/_/protobuf_32793ceb02866071ded30a9141c37ab4ecee75ce/package.zip"
+    f89a48f7b43dc7abd7a9ebabc7075ee51f727e64)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/protobuf/protobuf_c332cb3a2d78af6cd1d139f2f36925f8a705fabf/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/protobuf/protobuf_32793ceb02866071ded30a9141c37ab4ecee75ce/install")
 
 find_package(protobuf REQUIRED NO_MODULE)

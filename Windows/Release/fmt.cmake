@@ -6,21 +6,21 @@ https://github.com/fmtlib/fmt.git
 GIT_TAG
 7.1.3
 REVISION
-7bdf0628b1276379886c7f6dda2cef2b3b374f0b
+1691562f842209289d1da949363468387260482a
 FLAVOR
 64-bit Windows Release
 HASH
-09145a3eb2d80f19b94ecba661030cb656363ea1
+9c06514b5cdad8157b0dc31005554c40c76b25a7
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(fmt 09145a3eb2d80f19b94ecba661030cb656363ea1
-    "https://kydeps.s3.us-east-2.amazonaws.com/fmt_09145a3eb2d80f19b94ecba661030cb656363ea1.zip"
-    c0117eb1294e8ad2f5f65cdd9247fa6f21b4cef5)
+KyDepsPopulate(fmt 9c06514b5cdad8157b0dc31005554c40c76b25a7
+    "file://C:/kamen/clion/kydeps_new/build/Release/_/fmt_9c06514b5cdad8157b0dc31005554c40c76b25a7/package.zip"
+    5ce3673859b3d7a23fa12d231ad31ee71681288a)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/fmt/fmt_09145a3eb2d80f19b94ecba661030cb656363ea1/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/fmt/fmt_9c06514b5cdad8157b0dc31005554c40c76b25a7/install")
 
 find_package(fmt REQUIRED NO_MODULE)

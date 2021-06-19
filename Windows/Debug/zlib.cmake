@@ -6,21 +6,21 @@ https://github.com/kyotov/zlib.git
 GIT_TAG
 kyotov-fix
 REVISION
-68cf39d20a32cf9659e62b10f95fccc0575b0b31
+1691562f842209289d1da949363468387260482a
 FLAVOR
 64-bit Windows Debug
 HASH
-e6f55327533b4cbea5a411bb8dca73864c349b76
+177f32fcc7bf2a6d723d849cb7b12d5d3f891269
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(zlib e6f55327533b4cbea5a411bb8dca73864c349b76
-    "https://kydeps.s3.us-east-2.amazonaws.com/zlib_e6f55327533b4cbea5a411bb8dca73864c349b76.zip"
-    928cafcf15b42e79d4bb00b9aaadff650b06e580)
+KyDepsPopulate(zlib 177f32fcc7bf2a6d723d849cb7b12d5d3f891269
+    "file://C:/kamen/clion/kydeps_new/build/Debug/_/zlib_177f32fcc7bf2a6d723d849cb7b12d5d3f891269/package.zip"
+    b4844e3474ef6cac622d9b9aff208d11b6b4a300)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zlib/zlib_e6f55327533b4cbea5a411bb8dca73864c349b76/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zlib/zlib_177f32fcc7bf2a6d723d849cb7b12d5d3f891269/install")
 
 find_package(zlib REQUIRED NO_MODULE)

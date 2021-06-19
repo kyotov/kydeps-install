@@ -6,13 +6,13 @@ https://github.com/kyotov/cpp-httplib.git
 GIT_TAG
 v0.8.9-windows-patch
 REVISION
-2e4fbb5c286a3cad5e7f88304ffc0acfe2b8575c
+1691562f842209289d1da949363468387260482a
 FLAVOR
 64-bit Windows Release
 DEPENDS
-OpenSSL 47e39a4fec1130d9be561c1056a305e8bed34e46
+OpenSSL 4b1d711d0adf6198e422350eee544c2d61cab2b7
 HASH
-04c49d52c477018d0758caa604c21df7e6dff257
+6cdbe6cb9275fd6be7fe26bbceb460b8af231d22
 
 -------------------------------------------- ]]
 
@@ -20,10 +20,10 @@ include_guard(GLOBAL)
 
 include(OpenSSL)
 
-KyDepsPopulate(httplib 04c49d52c477018d0758caa604c21df7e6dff257
-    "https://kydeps.s3.us-east-2.amazonaws.com/httplib_04c49d52c477018d0758caa604c21df7e6dff257.zip"
-    eb3757896f2744578299ec41c68f75d28682dedd)
+KyDepsPopulate(httplib 6cdbe6cb9275fd6be7fe26bbceb460b8af231d22
+    "file://C:/kamen/clion/kydeps_new/build/Release/_/httplib_6cdbe6cb9275fd6be7fe26bbceb460b8af231d22/package.zip"
+    10b8223342271846f5cf85a8491b88ce11df82f7)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/httplib/httplib_04c49d52c477018d0758caa604c21df7e6dff257/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/httplib/httplib_6cdbe6cb9275fd6be7fe26bbceb460b8af231d22/install")
 
 find_package(httplib REQUIRED NO_MODULE)
