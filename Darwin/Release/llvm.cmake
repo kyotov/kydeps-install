@@ -6,21 +6,21 @@ https://github.com/llvm/llvm-project.git
 GIT_TAG
 main
 REVISION
-366462e9da23bb0754af48d4b0131d751446580d
+4faf448863c7def478ca2a4d2e4fd8d80b90074a
 FLAVOR
 64-bit Darwin Release
 HASH
-1d66054ecfda0878a2584e9b6e40da45c7ba9851
+89518dc4f8a8e98fbdf8012f24682677216748b7
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(llvm 1d66054ecfda0878a2584e9b6e40da45c7ba9851
-    "https://kydeps.s3.us-east-2.amazonaws.com/llvm_1d66054ecfda0878a2584e9b6e40da45c7ba9851.zip"
-    850bac77447c01c14a9a5e1d02a21ecdf68eefbd)
+KyDepsPopulate(llvm 89518dc4f8a8e98fbdf8012f24682677216748b7
+    "https://kydeps.s3.us-east-2.amazonaws.com/llvm_89518dc4f8a8e98fbdf8012f24682677216748b7.zip"
+    546806a516acb22cedb7718e357d3932cd9c0c0c)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/llvm/llvm_1d66054ecfda0878a2584e9b6e40da45c7ba9851/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/llvm/llvm_89518dc4f8a8e98fbdf8012f24682677216748b7/install")
 
 find_program(CLANG_TIDY REQUIRED NAMES clang-tidy)

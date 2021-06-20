@@ -2,25 +2,25 @@
 
 nginx
 URL
-http://nginx.org/download/nginx-1.20.1.zip
+http://nginx.org/download/nginx-1.20.1.tar.gz
 URL_HASH
-SHA1=3571530609629e97d06a2c575c4724c7e1246273
+SHA1=6b4ab4eff3c617e133819f43fdfc14708e593a79
 REVISION
-3571530609629e97d06a2c575c4724c7e1246273
+6b4ab4eff3c617e133819f43fdfc14708e593a79
 FLAVOR
 64-bit Darwin Release
 HASH
-0ec30126d8a673b1e5b6ed714b7fb473c9dc4d75
+f064a4435fb6136a0e3e8b92bb0ce75528b02d46
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(nginx 0ec30126d8a673b1e5b6ed714b7fb473c9dc4d75
-    "https://kydeps.s3.us-east-2.amazonaws.com/nginx_0ec30126d8a673b1e5b6ed714b7fb473c9dc4d75.zip"
-    17f15a33005bda308ffcb66392aaa36c849b3d09)
+KyDepsPopulate(nginx f064a4435fb6136a0e3e8b92bb0ce75528b02d46
+    "https://kydeps.s3.us-east-2.amazonaws.com/nginx_f064a4435fb6136a0e3e8b92bb0ce75528b02d46.zip"
+    c068b03efe5c6b104ade82ad6964b39782b97267)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/nginx/nginx_0ec30126d8a673b1e5b6ed714b7fb473c9dc4d75/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/nginx/nginx_f064a4435fb6136a0e3e8b92bb0ce75528b02d46/install")
 
 find_program(NGINX REQUIRED NAMES nginx)

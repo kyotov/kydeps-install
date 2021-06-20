@@ -6,21 +6,21 @@ https://github.com/facebook/zstd.git
 GIT_TAG
 v1.4.7
 REVISION
-366462e9da23bb0754af48d4b0131d751446580d
+4faf448863c7def478ca2a4d2e4fd8d80b90074a
 FLAVOR
 64-bit Darwin Release
 HASH
-0e4572d49d0277c676da289ffb1b5a9059b9aefe
+ae474d494904828db36c0112cdd4602cb583ec36
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(zstd 0e4572d49d0277c676da289ffb1b5a9059b9aefe
-    "https://kydeps.s3.us-east-2.amazonaws.com/zstd_0e4572d49d0277c676da289ffb1b5a9059b9aefe.zip"
-    b2faff0de15a233a16ace46b803a1068d48e638f)
+KyDepsPopulate(zstd ae474d494904828db36c0112cdd4602cb583ec36
+    "https://kydeps.s3.us-east-2.amazonaws.com/zstd_ae474d494904828db36c0112cdd4602cb583ec36.zip"
+    4882e6ebd08ec90398ba72931c18ec335ed97628)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zstd/zstd_0e4572d49d0277c676da289ffb1b5a9059b9aefe/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zstd/zstd_ae474d494904828db36c0112cdd4602cb583ec36/install")
 
 find_package(zstd REQUIRED NO_MODULE)

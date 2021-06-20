@@ -6,21 +6,21 @@ https://github.com/gflags/gflags.git
 GIT_TAG
 v2.2.0
 REVISION
-366462e9da23bb0754af48d4b0131d751446580d
+4faf448863c7def478ca2a4d2e4fd8d80b90074a
 FLAVOR
 64-bit Darwin Debug
 HASH
-adba16fcc1b1de682010c13ed9c2c8b44791885f
+20e8132079efc428f534c09316dddc211f94cd95
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(gflags adba16fcc1b1de682010c13ed9c2c8b44791885f
-    "https://kydeps.s3.us-east-2.amazonaws.com/gflags_adba16fcc1b1de682010c13ed9c2c8b44791885f.zip"
-    1c6e962c66115d7788a3f0fdfeede3efc1975dbb)
+KyDepsPopulate(gflags 20e8132079efc428f534c09316dddc211f94cd95
+    "https://kydeps.s3.us-east-2.amazonaws.com/gflags_20e8132079efc428f534c09316dddc211f94cd95.zip"
+    ccbe54a74f1ae5fde85c548993acf537fa857bb7)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/gflags/gflags_adba16fcc1b1de682010c13ed9c2c8b44791885f/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/gflags/gflags_20e8132079efc428f534c09316dddc211f94cd95/install")
 
 find_package(gflags REQUIRED NO_MODULE)

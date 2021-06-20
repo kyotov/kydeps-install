@@ -6,21 +6,21 @@ https://github.com/kyotov/zlib.git
 GIT_TAG
 kyotov-fix
 REVISION
-366462e9da23bb0754af48d4b0131d751446580d
+4faf448863c7def478ca2a4d2e4fd8d80b90074a
 FLAVOR
 64-bit Darwin Debug
 HASH
-171022f44b01342193c32a3acba5b8648fa50743
+ee7f5bc677b1e256bcc0b5a8777c5a037fa681b1
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(zlib 171022f44b01342193c32a3acba5b8648fa50743
-    "https://kydeps.s3.us-east-2.amazonaws.com/zlib_171022f44b01342193c32a3acba5b8648fa50743.zip"
-    fd7fb71954a250b14cf67cfa785e3a877cbce830)
+KyDepsPopulate(zlib ee7f5bc677b1e256bcc0b5a8777c5a037fa681b1
+    "https://kydeps.s3.us-east-2.amazonaws.com/zlib_ee7f5bc677b1e256bcc0b5a8777c5a037fa681b1.zip"
+    738ad19b51450603ebf115828abba72229adb6cf)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zlib/zlib_171022f44b01342193c32a3acba5b8648fa50743/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zlib/zlib_ee7f5bc677b1e256bcc0b5a8777c5a037fa681b1/install")
 
 find_package(zlib REQUIRED NO_MODULE)
