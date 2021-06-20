@@ -6,21 +6,21 @@ https://github.com/fmtlib/fmt.git
 GIT_TAG
 7.1.3
 REVISION
-7bdf0628b1276379886c7f6dda2cef2b3b374f0b
+b22579094a110dfa91de01a1c6da7c688c534f3d
 FLAVOR
 64-bit Linux Debug
 HASH
-2aae069693afcaaf472a6a751749549794b84b46
+4bfca9335323839c187ac9d5f3194a01f49e823a
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(fmt 2aae069693afcaaf472a6a751749549794b84b46
-    "https://kydeps.s3.us-east-2.amazonaws.com/fmt_2aae069693afcaaf472a6a751749549794b84b46.zip"
-    7aff155fce7cc228bb72b8a5f0507e604ee44a43)
+KyDepsPopulate(fmt 4bfca9335323839c187ac9d5f3194a01f49e823a
+    "https://kydeps.s3.us-east-2.amazonaws.com/fmt_4bfca9335323839c187ac9d5f3194a01f49e823a.zip"
+    49e3ffff64896d24adba9cedabad8ee6c9ff282c)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/fmt/fmt_2aae069693afcaaf472a6a751749549794b84b46/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/fmt/fmt_4bfca9335323839c187ac9d5f3194a01f49e823a/install")
 
 find_package(fmt REQUIRED NO_MODULE)

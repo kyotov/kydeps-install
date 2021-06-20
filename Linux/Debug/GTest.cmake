@@ -6,21 +6,21 @@ https://github.com/google/googletest.git
 GIT_TAG
 release-1.10.0
 REVISION
-703bd9caab50b139428cea1aaff9974ebee5742e
+b22579094a110dfa91de01a1c6da7c688c534f3d
 FLAVOR
 64-bit Linux Debug
 HASH
-f1d33bb74915f5b87810f58482731e4ce3c31e70
+a107f33e7102c6edcfa9604b84da65b81ee1ed8f
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(GTest f1d33bb74915f5b87810f58482731e4ce3c31e70
-    "https://kydeps.s3.us-east-2.amazonaws.com/GTest_f1d33bb74915f5b87810f58482731e4ce3c31e70.zip"
-    f960497c6f8f9d26ef81e1134e9d4f08aa443f5f)
+KyDepsPopulate(GTest a107f33e7102c6edcfa9604b84da65b81ee1ed8f
+    "https://kydeps.s3.us-east-2.amazonaws.com/GTest_a107f33e7102c6edcfa9604b84da65b81ee1ed8f.zip"
+    b74cb885fa2b178df65aab08e4dd60c4656ab55f)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_f1d33bb74915f5b87810f58482731e4ce3c31e70/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_a107f33e7102c6edcfa9604b84da65b81ee1ed8f/install")
 
 find_package(GTest REQUIRED NO_MODULE)

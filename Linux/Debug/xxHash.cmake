@@ -6,21 +6,21 @@ https://github.com/Cyan4973/xxHash.git
 GIT_TAG
 v0.8.0
 REVISION
-94e5f23e736f2bb67ebdf90727353e65344f9fc0
+b22579094a110dfa91de01a1c6da7c688c534f3d
 FLAVOR
 64-bit Linux Debug
 HASH
-238a536d9957e58f7449f2d44ececfea806f3507
+1914218dae1fee9f2194d63b82438691ca90b676
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(xxHash 238a536d9957e58f7449f2d44ececfea806f3507
-    "https://kydeps.s3.us-east-2.amazonaws.com/xxHash_238a536d9957e58f7449f2d44ececfea806f3507.zip"
-    61a19f0c01d1150657d9575c2b336d7eddd767a0)
+KyDepsPopulate(xxHash 1914218dae1fee9f2194d63b82438691ca90b676
+    "https://kydeps.s3.us-east-2.amazonaws.com/xxHash_1914218dae1fee9f2194d63b82438691ca90b676.zip"
+    db32672944ee7cc075d349bac6037da29c79865a)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/xxHash/xxHash_238a536d9957e58f7449f2d44ececfea806f3507/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/xxHash/xxHash_1914218dae1fee9f2194d63b82438691ca90b676/install")
 
 find_package(xxHash REQUIRED NO_MODULE)
