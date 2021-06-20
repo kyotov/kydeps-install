@@ -6,21 +6,21 @@ https://github.com/google/googletest.git
 GIT_TAG
 release-1.10.0
 REVISION
-703bd9caab50b139428cea1aaff9974ebee5742e
+366462e9da23bb0754af48d4b0131d751446580d
 FLAVOR
 64-bit Darwin Debug
 HASH
-f9cba41ce2d12bcecc4a5518cc43b0239a244790
+e4d641e4bc1f026f6bbc4986cca860fa8c559b67
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(GTest f9cba41ce2d12bcecc4a5518cc43b0239a244790
-    "https://kydeps.s3.us-east-2.amazonaws.com/GTest_f9cba41ce2d12bcecc4a5518cc43b0239a244790.zip"
-    b112aaa6b042e5381cbf7d7902ad27b87f3e297b)
+KyDepsPopulate(GTest e4d641e4bc1f026f6bbc4986cca860fa8c559b67
+    "https://kydeps.s3.us-east-2.amazonaws.com/GTest_e4d641e4bc1f026f6bbc4986cca860fa8c559b67.zip"
+    eb22b5788429b266e9e9053a3ce0f82b32ac70c1)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_f9cba41ce2d12bcecc4a5518cc43b0239a244790/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_e4d641e4bc1f026f6bbc4986cca860fa8c559b67/install")
 
 find_package(GTest REQUIRED NO_MODULE)

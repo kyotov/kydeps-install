@@ -6,13 +6,13 @@ https://github.com/protocolbuffers/protobuf.git
 GIT_TAG
 v3.15.8
 REVISION
-436bd7880e458532901c58f4d9d1ea23fa7edd52
+366462e9da23bb0754af48d4b0131d751446580d
 FLAVOR
 64-bit Darwin Debug
 DEPENDS
-zlib 4334f0c61fe3862a07694f702bcb4b18361f9ca6
+zlib 171022f44b01342193c32a3acba5b8648fa50743
 HASH
-7b0973fbf1b0a1c69dd992d847dec11ec907f0a1
+ff08c848f014ecb6493c393ad7f98525b81dd88a
 
 -------------------------------------------- ]]
 
@@ -20,10 +20,10 @@ include_guard(GLOBAL)
 
 include(zlib)
 
-KyDepsPopulate(protobuf 7b0973fbf1b0a1c69dd992d847dec11ec907f0a1
-    "https://kydeps.s3.us-east-2.amazonaws.com/protobuf_7b0973fbf1b0a1c69dd992d847dec11ec907f0a1.zip"
-    674493721259af1cda8e710d6f7edff443a00775)
+KyDepsPopulate(protobuf ff08c848f014ecb6493c393ad7f98525b81dd88a
+    "https://kydeps.s3.us-east-2.amazonaws.com/protobuf_ff08c848f014ecb6493c393ad7f98525b81dd88a.zip"
+    11b90df703e1c93d775cd13adebe0665e27d8758)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/protobuf/protobuf_7b0973fbf1b0a1c69dd992d847dec11ec907f0a1/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/protobuf/protobuf_ff08c848f014ecb6493c393ad7f98525b81dd88a/install")
 
 find_package(protobuf REQUIRED NO_MODULE)
