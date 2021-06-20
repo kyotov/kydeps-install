@@ -6,13 +6,13 @@ https://github.com/openssl/openssl.git
 GIT_TAG
 OpenSSL_1_1_1k
 REVISION
-b22579094a110dfa91de01a1c6da7c688c534f3d
+366462e9da23bb0754af48d4b0131d751446580d
 FLAVOR
 64-bit Linux Release
 DEPENDS
-zlib 179664899df6c6983933dc7396cd81f7aa71794f
+zlib edbd5bfe5940c00af6a87b6114ccab597677ec1e
 HASH
-3741b0facdcbdd2b734db7bb77c3c59ee18904a2
+349deaf90f05db7bc1a83c2e2230cffb495dd9cc
 
 -------------------------------------------- ]]
 
@@ -20,10 +20,10 @@ include_guard(GLOBAL)
 
 include(zlib)
 
-KyDepsPopulate(OpenSSL 3741b0facdcbdd2b734db7bb77c3c59ee18904a2
-    "https://kydeps.s3.us-east-2.amazonaws.com/OpenSSL_3741b0facdcbdd2b734db7bb77c3c59ee18904a2.zip"
-    8a6600511f91729358a945e2dc9d227089492c5a)
+KyDepsPopulate(OpenSSL 349deaf90f05db7bc1a83c2e2230cffb495dd9cc
+    "https://kydeps.s3.us-east-2.amazonaws.com/OpenSSL_349deaf90f05db7bc1a83c2e2230cffb495dd9cc.zip"
+    f23b00ab18a221b02bfce977a2eb56586d800bfc)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/OpenSSL/OpenSSL_3741b0facdcbdd2b734db7bb77c3c59ee18904a2/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/OpenSSL/OpenSSL_349deaf90f05db7bc1a83c2e2230cffb495dd9cc/install")
 
 find_package(OpenSSL REQUIRED)

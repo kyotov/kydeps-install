@@ -19,7 +19,7 @@ include_guard(GLOBAL)
 
 KyDepsPopulate(nginx 44fea04a1385a62e7ad7444b5f270967f59808e2
     "https://kydeps.s3.us-east-2.amazonaws.com/nginx_44fea04a1385a62e7ad7444b5f270967f59808e2.zip"
-    f30cccc5b0591234683ff233f9f5021b0c91a23f)
+    23aff07b0de31bdf2f882698658c412b3190c876)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/nginx/nginx_44fea04a1385a62e7ad7444b5f270967f59808e2/install")
 

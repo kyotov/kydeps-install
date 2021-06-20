@@ -6,21 +6,21 @@ https://github.com/gflags/gflags.git
 GIT_TAG
 v2.2.0
 REVISION
-b22579094a110dfa91de01a1c6da7c688c534f3d
+366462e9da23bb0754af48d4b0131d751446580d
 FLAVOR
 64-bit Linux Debug
 HASH
-ab9650bf11a46ceae31be0a119b0e44833355da4
+e1a881a338b016aec03660529ecbce7d4b10a427
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(gflags ab9650bf11a46ceae31be0a119b0e44833355da4
-    "https://kydeps.s3.us-east-2.amazonaws.com/gflags_ab9650bf11a46ceae31be0a119b0e44833355da4.zip"
-    328d1776f652d1d02dc396b3ba89ec42986ea2c7)
+KyDepsPopulate(gflags e1a881a338b016aec03660529ecbce7d4b10a427
+    "https://kydeps.s3.us-east-2.amazonaws.com/gflags_e1a881a338b016aec03660529ecbce7d4b10a427.zip"
+    43928bb81787833cc922f79c66fdeb83f2c4dccf)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/gflags/gflags_ab9650bf11a46ceae31be0a119b0e44833355da4/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/gflags/gflags_e1a881a338b016aec03660529ecbce7d4b10a427/install")
 
 find_package(gflags REQUIRED NO_MODULE)
