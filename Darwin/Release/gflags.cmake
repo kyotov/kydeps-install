@@ -19,7 +19,7 @@ include_guard(GLOBAL)
 
 KyDepsPopulate(gflags 20a7f217901d9a7810e3ae8b3de35822fc38a399
     "https://kydeps.s3.us-east-2.amazonaws.com/gflags_20a7f217901d9a7810e3ae8b3de35822fc38a399.zip"
-    f1201737a3afd7d4c75ffa124b38164822fefec4)
+    0779d8405d49e7467a3f8ddbf9815f0a551a3510)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/gflags/gflags_20a7f217901d9a7810e3ae8b3de35822fc38a399/install")
 
