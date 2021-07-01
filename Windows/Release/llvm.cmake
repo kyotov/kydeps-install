@@ -10,7 +10,7 @@ include_guard(GLOBAL)
 
 
 KyDepsPopulate(llvm 6c5a4ad9d6e6048b2c2e1ec3826ff724ea60017a
-    "https://kydeps.s3.us-east-2.amazonaws.com/llvm_6c5a4ad9d6e6048b2c2e1ec3826ff724ea60017a.zip"
+    "file://C:/kamen/clion/kydeps_new/build/Release/_/llvm_6c5a4ad9d6e6048b2c2e1ec3826ff724ea60017a/package.zip"
     af71c4e9b80765e2ba441c3374df5a7d2fc2213c)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/llvm/llvm_6c5a4ad9d6e6048b2c2e1ec3826ff724ea60017a/install")

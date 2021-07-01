@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 OpenSSL
-OpenSSL_1_1_1k @ https://github.com/openssl/openssl.git (6503afba18b24332d3160a013179258a8edff959)
+OpenSSL_1_1_1k @ https://github.com/openssl/openssl.git (fd78df59b0f656aefe96e39533130454aa957c00)
 64-bit Windows Debug
 DEPENDS
 perl 28064e5bb710a1ea175c74986110f5b905a126cf
@@ -14,10 +14,10 @@ include_guard(GLOBAL)
 
 include(zlib)
 
-KyDepsPopulate(OpenSSL de5d6f5f010014e3f777f11f06b974240a4e43b8
-    "https://kydeps.s3.us-east-2.amazonaws.com/OpenSSL_de5d6f5f010014e3f777f11f06b974240a4e43b8.zip"
-    c709e2076fe64ac44e638bfefa1537a674741ff2)
+KyDepsPopulate(OpenSSL f95b9a4da560bf1ce5b136812dfbe971b36ce723
+    "file://C:/kamen/clion/kydeps_new/build/Debug/_/OpenSSL_f95b9a4da560bf1ce5b136812dfbe971b36ce723/package.zip"
+    dbcb9af52266e062c6cdd2ae4e115052903c8ff0)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/OpenSSL/OpenSSL_de5d6f5f010014e3f777f11f06b974240a4e43b8/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/OpenSSL/OpenSSL_f95b9a4da560bf1ce5b136812dfbe971b36ce723/install")
 
 find_package(OpenSSL REQUIRED)
