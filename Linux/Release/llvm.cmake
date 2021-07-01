@@ -11,7 +11,7 @@ include_guard(GLOBAL)
 
 KyDepsPopulate(llvm 97153874490c3cfa96fc58cc97756dbf3cc4699b
     "https://kydeps.s3.us-east-2.amazonaws.com/llvm_97153874490c3cfa96fc58cc97756dbf3cc4699b.zip"
-    a34f8a90bf89fd933376f24c7e41c862bdb35ff9)
+    b5f5b097b267c1ea83aa472402dfc7777d31cb37)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/llvm/llvm_97153874490c3cfa96fc58cc97756dbf3cc4699b/install")
 

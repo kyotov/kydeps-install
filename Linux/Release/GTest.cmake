@@ -11,7 +11,7 @@ include_guard(GLOBAL)
 
 KyDepsPopulate(GTest 17cca824d8a7e566cc5f768a9c117988bedc02ef
     "https://kydeps.s3.us-east-2.amazonaws.com/GTest_17cca824d8a7e566cc5f768a9c117988bedc02ef.zip"
-    4b2c1eca114486a8a3ffbb62189326625622b0b2)
+    4151a1a922d7fa76c19e7a0d28735f4c07691372)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_17cca824d8a7e566cc5f768a9c117988bedc02ef/install")
 
