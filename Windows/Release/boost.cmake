@@ -10,8 +10,8 @@ include_guard(GLOBAL)
 
 
 KyDepsPopulate(Boost f960d624571dd3c4a4d175700f4c170ab0a42c1d
-    "file://C:/kamen/clion/kydeps_new/build/Release/_/Boost_f960d624571dd3c4a4d175700f4c170ab0a42c1d/package.zip"
-    6f08b4d519540db52917ec580f53e8e25ecafa04)
+    "https://kydeps.s3.us-east-2.amazonaws.com/Boost_f960d624571dd3c4a4d175700f4c170ab0a42c1d.zip"
+    2a60dadbd0201a7d97f11d776adedd8094814660)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/Boost/Boost_f960d624571dd3c4a4d175700f4c170ab0a42c1d/install")
 

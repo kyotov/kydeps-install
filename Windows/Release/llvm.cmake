@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 llvm
-main @ https://github.com/llvm/llvm-project.git (0873016ceff3ded84bfeaa37b39be675fa178f7d)
+28b01c59c93d10ed3a775dd13ff827048b59cda8 @ https://github.com/llvm/llvm-project.git (28b01c59c93d10ed3a775dd13ff827048b59cda8)
 64-bit Windows Release
 
 -------------------------------------------- ]]
@@ -9,10 +9,10 @@ main @ https://github.com/llvm/llvm-project.git (0873016ceff3ded84bfeaa37b39be67
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(llvm 6c5a4ad9d6e6048b2c2e1ec3826ff724ea60017a
-    "file://C:/kamen/clion/kydeps_new/build/Release/_/llvm_6c5a4ad9d6e6048b2c2e1ec3826ff724ea60017a/package.zip"
-    af71c4e9b80765e2ba441c3374df5a7d2fc2213c)
+KyDepsPopulate(llvm a40b45890086a4c2b0f35e062064412511c40e9b
+    "https://kydeps.s3.us-east-2.amazonaws.com/llvm_a40b45890086a4c2b0f35e062064412511c40e9b.zip"
+    7394f36cbe22a2ba18709c65561ba3a6e464229d)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/llvm/llvm_6c5a4ad9d6e6048b2c2e1ec3826ff724ea60017a/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/llvm/llvm_a40b45890086a4c2b0f35e062064412511c40e9b/install")
 
 find_program(CLANG_TIDY REQUIRED NAMES clang-tidy)
