@@ -1,26 +1,18 @@
 #[[ -------------------------------------------
 
 zstd
-GIT_REPOSITORY
-https://github.com/facebook/zstd.git
-GIT_TAG
-v1.4.7
-REVISION
-366462e9da23bb0754af48d4b0131d751446580d
-FLAVOR
+v1.4.7 @ https://github.com/facebook/zstd.git (645a2975c394dc115b57a652cf175cd4c2b59292)
 64-bit Linux Release
-HASH
-34e7786f1ba056db5f991c5b1dcf74709cb14dcb
 
 -------------------------------------------- ]]
 
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(zstd 34e7786f1ba056db5f991c5b1dcf74709cb14dcb
-    "https://kydeps.s3.us-east-2.amazonaws.com/zstd_34e7786f1ba056db5f991c5b1dcf74709cb14dcb.zip"
-    cb7ece0a9b4c6dfde1c93f5b9378c7bcbbec88cf)
+KyDepsPopulate(zstd 416609a6495004f3300484fb15f7a2c48e16f333
+    "https://kydeps.s3.us-east-2.amazonaws.com/zstd_416609a6495004f3300484fb15f7a2c48e16f333.zip"
+    411f7d8a4c3fa5cd82f54d30bfa7c88ed6e71378)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zstd/zstd_34e7786f1ba056db5f991c5b1dcf74709cb14dcb/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zstd/zstd_416609a6495004f3300484fb15f7a2c48e16f333/install")
 
 find_package(zstd REQUIRED NO_MODULE)

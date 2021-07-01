@@ -1,18 +1,10 @@
 #[[ -------------------------------------------
 
 glog
-GIT_REPOSITORY
-https://github.com/google/glog.git
-GIT_TAG
-v0.4.0
-REVISION
-366462e9da23bb0754af48d4b0131d751446580d
-FLAVOR
+v0.4.0 @ https://github.com/google/glog.git (96a2f23dca4cc7180821ca5f32e526314395d26a)
 64-bit Linux Debug
 DEPENDS
-gflags e1a881a338b016aec03660529ecbce7d4b10a427
-HASH
-2095918709de55b6fc962436d6542b4f72967a1b
+gflags 09cac1ef1ca59341bbb5fbca4f264496d9413532
 
 -------------------------------------------- ]]
 
@@ -20,10 +12,10 @@ include_guard(GLOBAL)
 
 include(gflags)
 
-KyDepsPopulate(glog 2095918709de55b6fc962436d6542b4f72967a1b
-    "https://kydeps.s3.us-east-2.amazonaws.com/glog_2095918709de55b6fc962436d6542b4f72967a1b.zip"
-    1dc94130f80c2451ac99a618fb5dbad818f4f5f2)
+KyDepsPopulate(glog 3b0603d640fdda5eae2f6da8df2862fc658a4d87
+    "https://kydeps.s3.us-east-2.amazonaws.com/glog_3b0603d640fdda5eae2f6da8df2862fc658a4d87.zip"
+    cbd14470f85ee6b1435d64547fa394daf6c97247)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/glog/glog_2095918709de55b6fc962436d6542b4f72967a1b/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/glog/glog_3b0603d640fdda5eae2f6da8df2862fc658a4d87/install")
 
 find_package(glog REQUIRED NO_MODULE)

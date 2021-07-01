@@ -1,18 +1,10 @@
 #[[ -------------------------------------------
 
 OpenSSL
-GIT_REPOSITORY
-https://github.com/openssl/openssl.git
-GIT_TAG
-OpenSSL_1_1_1k
-REVISION
-366462e9da23bb0754af48d4b0131d751446580d
-FLAVOR
+OpenSSL_1_1_1k @ https://github.com/openssl/openssl.git (fd78df59b0f656aefe96e39533130454aa957c00)
 64-bit Linux Debug
 DEPENDS
-zlib b38225060b5d5309da849e0fa8964e8afb5376b6
-HASH
-8f2ac92ca3864c9fa0b3443ddef4fd43d5eaef3e
+zlib d1b90c3ded5bf2c1dfa7f07b7a4e3e328fe26d28
 
 -------------------------------------------- ]]
 
@@ -20,10 +12,10 @@ include_guard(GLOBAL)
 
 include(zlib)
 
-KyDepsPopulate(OpenSSL 8f2ac92ca3864c9fa0b3443ddef4fd43d5eaef3e
-    "https://kydeps.s3.us-east-2.amazonaws.com/OpenSSL_8f2ac92ca3864c9fa0b3443ddef4fd43d5eaef3e.zip"
-    83f055a5d7b410dfc64160cb9a4eb40b0b0ca738)
+KyDepsPopulate(OpenSSL a1694da230642114bb9dffca390adbbbb9e9b471
+    "https://kydeps.s3.us-east-2.amazonaws.com/OpenSSL_a1694da230642114bb9dffca390adbbbb9e9b471.zip"
+    6269ae6a384d3da4c2614b3e1fc8b6369a22b2ee)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/OpenSSL/OpenSSL_8f2ac92ca3864c9fa0b3443ddef4fd43d5eaef3e/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/OpenSSL/OpenSSL_a1694da230642114bb9dffca390adbbbb9e9b471/install")
 
 find_package(OpenSSL REQUIRED)

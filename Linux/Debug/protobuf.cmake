@@ -1,18 +1,10 @@
 #[[ -------------------------------------------
 
 protobuf
-GIT_REPOSITORY
-https://github.com/protocolbuffers/protobuf.git
-GIT_TAG
-v3.15.8
-REVISION
-366462e9da23bb0754af48d4b0131d751446580d
-FLAVOR
+v3.15.8 @ https://github.com/protocolbuffers/protobuf.git (436bd7880e458532901c58f4d9d1ea23fa7edd52)
 64-bit Linux Debug
 DEPENDS
-zlib b38225060b5d5309da849e0fa8964e8afb5376b6
-HASH
-9eda9097f62c68c060c1033e32e001663a55d6d7
+zlib d1b90c3ded5bf2c1dfa7f07b7a4e3e328fe26d28
 
 -------------------------------------------- ]]
 
@@ -20,10 +12,10 @@ include_guard(GLOBAL)
 
 include(zlib)
 
-KyDepsPopulate(protobuf 9eda9097f62c68c060c1033e32e001663a55d6d7
-    "https://kydeps.s3.us-east-2.amazonaws.com/protobuf_9eda9097f62c68c060c1033e32e001663a55d6d7.zip"
-    0966900f200792b79a49e9790fcb46a111f36fe1)
+KyDepsPopulate(protobuf a5b3ee1a5a3b286693fa45fb9f85837e2e080c00
+    "https://kydeps.s3.us-east-2.amazonaws.com/protobuf_a5b3ee1a5a3b286693fa45fb9f85837e2e080c00.zip"
+    f47657bd16fbc3d0812c737e59ee861386a023b1)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/protobuf/protobuf_9eda9097f62c68c060c1033e32e001663a55d6d7/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/protobuf/protobuf_a5b3ee1a5a3b286693fa45fb9f85837e2e080c00/install")
 
 find_package(protobuf REQUIRED NO_MODULE)
