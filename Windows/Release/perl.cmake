@@ -10,7 +10,7 @@ include_guard(GLOBAL)
 
 
 KyDepsPopulate(perl 9fe46ff8972008edd419a9d06881ee46ef479ffd
-    "file://C:/kamen/clion/kydeps_new/build/Release/_/perl_9fe46ff8972008edd419a9d06881ee46ef479ffd/package.zip"
+    "https://kydeps.s3.us-east-2.amazonaws.com/perl_9fe46ff8972008edd419a9d06881ee46ef479ffd.zip"
     53f983af8f0d200f848247ce93124bdedd1023d5)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/perl/perl_9fe46ff8972008edd419a9d06881ee46ef479ffd/install")

@@ -11,7 +11,7 @@ include_guard(GLOBAL)
 
 KyDepsPopulate(Boost 30b4985436c1353b8ec89e0f1127ba21b10bd909
     "https://kydeps.s3.us-east-2.amazonaws.com/Boost_30b4985436c1353b8ec89e0f1127ba21b10bd909.zip"
-    bde2ca27c0aa1fbb3e6d5e50a163b84e4944945c)
+    04520f8411b7fc1d1dbb6e02a86e8979877d3318)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/Boost/Boost_30b4985436c1353b8ec89e0f1127ba21b10bd909/install")
 

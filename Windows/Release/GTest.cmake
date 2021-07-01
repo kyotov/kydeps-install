@@ -10,7 +10,7 @@ include_guard(GLOBAL)
 
 
 KyDepsPopulate(GTest 90841d1e6757f08a1f96f1ef70568b7886993d45
-    "file://C:/kamen/clion/kydeps_new/build/Release/_/GTest_90841d1e6757f08a1f96f1ef70568b7886993d45/package.zip"
+    "https://kydeps.s3.us-east-2.amazonaws.com/GTest_90841d1e6757f08a1f96f1ef70568b7886993d45.zip"
     621ea6bb44e0243e92ba59015d35bd8cd8bafcb7)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_90841d1e6757f08a1f96f1ef70568b7886993d45/install")

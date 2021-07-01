@@ -10,7 +10,7 @@ include_guard(GLOBAL)
 
 
 KyDepsPopulate(fmt 5e791207c543f972153327588d4601e030ea4add
-    "file://C:/kamen/clion/kydeps_new/build/Release/_/fmt_5e791207c543f972153327588d4601e030ea4add/package.zip"
+    "https://kydeps.s3.us-east-2.amazonaws.com/fmt_5e791207c543f972153327588d4601e030ea4add.zip"
     f3aec9762bd5c49e62cdd2f4ef0160fde7f1550c)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/fmt/fmt_5e791207c543f972153327588d4601e030ea4add/install")
