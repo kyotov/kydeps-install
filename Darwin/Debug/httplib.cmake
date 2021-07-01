@@ -1,18 +1,10 @@
 #[[ -------------------------------------------
 
 httplib
-GIT_REPOSITORY
-https://github.com/kyotov/cpp-httplib.git
-GIT_TAG
-v0.8.9-windows-patch
-REVISION
-4faf448863c7def478ca2a4d2e4fd8d80b90074a
-FLAVOR
+v0.8.9-windows-patch @ https://github.com/kyotov/cpp-httplib.git (2e4fbb5c286a3cad5e7f88304ffc0acfe2b8575c)
 64-bit Darwin Debug
 DEPENDS
-OpenSSL cd5019d99a2ff4d2a17750fba62d219cc2bee9a2
-HASH
-3407ec8b1c39d20b9b2b34a0bf38f0384155d772
+OpenSSL c7a029fd34248dff5a79c0dee07a06af921d6027
 
 -------------------------------------------- ]]
 
@@ -20,10 +12,10 @@ include_guard(GLOBAL)
 
 include(OpenSSL)
 
-KyDepsPopulate(httplib 3407ec8b1c39d20b9b2b34a0bf38f0384155d772
-    "https://kydeps.s3.us-east-2.amazonaws.com/httplib_3407ec8b1c39d20b9b2b34a0bf38f0384155d772.zip"
-    06ffabd85388bac7c0a073bcd305b3d507a0b34c)
+KyDepsPopulate(httplib e18964659e1a087b170459df21cce3a2deae59cf
+    "https://kydeps.s3.us-east-2.amazonaws.com/httplib_e18964659e1a087b170459df21cce3a2deae59cf.zip"
+    eb6afe7e8f4203b4d90223515d3e1bae772839bc)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/httplib/httplib_3407ec8b1c39d20b9b2b34a0bf38f0384155d772/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/httplib/httplib_e18964659e1a087b170459df21cce3a2deae59cf/install")
 
 find_package(httplib REQUIRED NO_MODULE)
