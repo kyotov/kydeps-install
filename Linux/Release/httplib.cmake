@@ -1,10 +1,10 @@
 #[[ -------------------------------------------
 
 httplib
-v0.8.9-windows-patch @ https://github.com/kyotov/cpp-httplib.git (2e4fbb5c286a3cad5e7f88304ffc0acfe2b8575c)
+https://github.com/kyotov/cpp-httplib.git (2e4fbb5c286a3cad5e7f88304ffc0acfe2b8575c)
 64-bit Linux Release
 DEPENDS
-OpenSSL ad2d29950202857e921a54ced00a4f41a6875b72
+OpenSSL c45cd9eb339db79c3dc1fe920a5338bf2d5d91fd
 
 -------------------------------------------- ]]
 
@@ -12,10 +12,10 @@ include_guard(GLOBAL)
 
 include(OpenSSL)
 
-KyDepsPopulate(httplib cc0ccbf3cd433e9f870cd686dd3808f40e45cd1c
-    "https://kydeps.s3.us-east-2.amazonaws.com/httplib_cc0ccbf3cd433e9f870cd686dd3808f40e45cd1c.zip"
-    4f867a02c548d04ff9b31ac14d0a771bad817f23)
+KyDepsPopulate(httplib 41a00d79a170998bef3338c27bb3c508c1169373
+    "https://kydeps.s3.us-east-2.amazonaws.com/httplib_41a00d79a170998bef3338c27bb3c508c1169373.zip"
+    abcc4e594146c449652a2777a04696907b42a987)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/httplib/httplib_cc0ccbf3cd433e9f870cd686dd3808f40e45cd1c/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/httplib/httplib_41a00d79a170998bef3338c27bb3c508c1169373/install")
 
 find_package(httplib REQUIRED NO_MODULE)

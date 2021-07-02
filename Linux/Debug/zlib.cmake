@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 zlib
-kyotov-fix @ https://github.com/kyotov/zlib.git (68cf39d20a32cf9659e62b10f95fccc0575b0b31)
+https://github.com/kyotov/zlib.git (68cf39d20a32cf9659e62b10f95fccc0575b0b31)
 64-bit Linux Debug
 
 -------------------------------------------- ]]
@@ -9,10 +9,10 @@ kyotov-fix @ https://github.com/kyotov/zlib.git (68cf39d20a32cf9659e62b10f95fccc
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(zlib d1b90c3ded5bf2c1dfa7f07b7a4e3e328fe26d28
-    "https://kydeps.s3.us-east-2.amazonaws.com/zlib_d1b90c3ded5bf2c1dfa7f07b7a4e3e328fe26d28.zip"
-    29b38b244b99951eee9feeb05a1e0ad8decb6901)
+KyDepsPopulate(zlib 284ef655cdb8f6c17bc9b4965625b39b772b8af6
+    "https://kydeps.s3.us-east-2.amazonaws.com/zlib_284ef655cdb8f6c17bc9b4965625b39b772b8af6.zip"
+    b2cbe1efa530d346447f4484fcddfd952b7fe632)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zlib/zlib_d1b90c3ded5bf2c1dfa7f07b7a4e3e328fe26d28/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/zlib/zlib_284ef655cdb8f6c17bc9b4965625b39b772b8af6/install")
 
 find_package(zlib REQUIRED NO_MODULE)
