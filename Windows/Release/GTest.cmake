@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 GTest
-release-1.10.0 @ https://github.com/google/googletest.git (703bd9caab50b139428cea1aaff9974ebee5742e)
+https://github.com/google/googletest.git (703bd9caab50b139428cea1aaff9974ebee5742e)
 64-bit Windows Release
 
 -------------------------------------------- ]]
@@ -9,10 +9,10 @@ release-1.10.0 @ https://github.com/google/googletest.git (703bd9caab50b139428ce
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(GTest 90841d1e6757f08a1f96f1ef70568b7886993d45
-    "https://kydeps.s3.us-east-2.amazonaws.com/GTest_90841d1e6757f08a1f96f1ef70568b7886993d45.zip"
-    621ea6bb44e0243e92ba59015d35bd8cd8bafcb7)
+KyDepsPopulate(GTest 4f08481558c5a6ed85b2651cdc85df09614bbaa6
+    "https://kydeps.s3.us-east-2.amazonaws.com/GTest_4f08481558c5a6ed85b2651cdc85df09614bbaa6.zip"
+    c488312819aca635ad46a689c3071f1db54649f3)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_90841d1e6757f08a1f96f1ef70568b7886993d45/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_4f08481558c5a6ed85b2651cdc85df09614bbaa6/install")
 
 find_package(GTest REQUIRED NO_MODULE)

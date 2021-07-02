@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 fmt
-7.1.3 @ https://github.com/fmtlib/fmt.git (7bdf0628b1276379886c7f6dda2cef2b3b374f0b)
+https://github.com/fmtlib/fmt.git (7bdf0628b1276379886c7f6dda2cef2b3b374f0b)
 64-bit Windows Release
 
 -------------------------------------------- ]]
@@ -9,10 +9,10 @@ fmt
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(fmt 5e791207c543f972153327588d4601e030ea4add
-    "https://kydeps.s3.us-east-2.amazonaws.com/fmt_5e791207c543f972153327588d4601e030ea4add.zip"
-    f3aec9762bd5c49e62cdd2f4ef0160fde7f1550c)
+KyDepsPopulate(fmt d06469b1af629eebc23408adcab77ff539ced078
+    "https://kydeps.s3.us-east-2.amazonaws.com/fmt_d06469b1af629eebc23408adcab77ff539ced078.zip"
+    7743d5d447739b56fce05db53f758308f7f79420)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/fmt/fmt_5e791207c543f972153327588d4601e030ea4add/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/fmt/fmt_d06469b1af629eebc23408adcab77ff539ced078/install")
 
 find_package(fmt REQUIRED NO_MODULE)

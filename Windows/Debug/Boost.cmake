@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 Boost
-boost-1.76.0 @ https://github.com/boostorg/boost.git (ccb2ab3b4384a16deafaa849de509bce2b2cbada)
+https://github.com/boostorg/boost.git (ccb2ab3b4384a16deafaa849de509bce2b2cbada)
 64-bit Windows Debug
 
 -------------------------------------------- ]]
@@ -9,11 +9,11 @@ boost-1.76.0 @ https://github.com/boostorg/boost.git (ccb2ab3b4384a16deafaa849de
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(Boost 30b4985436c1353b8ec89e0f1127ba21b10bd909
-    "https://kydeps.s3.us-east-2.amazonaws.com/Boost_30b4985436c1353b8ec89e0f1127ba21b10bd909.zip"
-    47bf43f1adeff5e28d84e250671cd02dede228cd)
+KyDepsPopulate(Boost c7ccca8a0ce16d2aa44ff7d05ca0d3833e7fefd8
+    "https://kydeps.s3.us-east-2.amazonaws.com/Boost_c7ccca8a0ce16d2aa44ff7d05ca0d3833e7fefd8.zip"
+    1193abd31f2cbe4964a56a83ea1c4b392a50e3d6)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/Boost/Boost_30b4985436c1353b8ec89e0f1127ba21b10bd909/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/Boost/Boost_c7ccca8a0ce16d2aa44ff7d05ca0d3833e7fefd8/install")
 
     set(Boost_USE_STATIC_RUNTIME ON)
     find_package(Boost 1.76.0 REQUIRED COMPONENTS ALL NO_MODULE)
