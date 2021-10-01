@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 xxHash
-https://github.com/Cyan4973/xxHash.git (94e5f23e736f2bb67ebdf90727353e65344f9fc0)
+v0.8.0 @ https://github.com/Cyan4973/xxHash.git (94e5f23e736f2bb67ebdf90727353e65344f9fc0)
 64-bit Windows Release
 
 -------------------------------------------- ]]
@@ -9,10 +9,10 @@ https://github.com/Cyan4973/xxHash.git (94e5f23e736f2bb67ebdf90727353e65344f9fc0
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(xxHash 573980c15162c35c2aacb1caf9f664bfa7caba67
-    "https://kydeps.s3.us-east-2.amazonaws.com/xxHash_573980c15162c35c2aacb1caf9f664bfa7caba67.zip"
-    75c00c41a6bfde02ca0883b6a42efa247742750a)
+KyDepsPopulate(xxHash aee146698730b28e4da1da4b51c1ea9a39c84e49
+    "file://C:/kamen/clion/kyfs/kydeps/build/Release/_/xxHash_aee146698730b28e4da1da4b51c1ea9a39c84e49/package.zip"
+    de120097241dbc6675c2dd9297c589f1ec6419f4)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/xxHash/xxHash_573980c15162c35c2aacb1caf9f664bfa7caba67/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/xxHash/xxHash_aee146698730b28e4da1da4b51c1ea9a39c84e49/install")
 
 find_package(xxHash REQUIRED NO_MODULE)

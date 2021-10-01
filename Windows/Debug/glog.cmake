@@ -14,7 +14,7 @@ include(gflags)
 
 KyDepsPopulate(glog 6ef6f29b465134ba4e80b546dea7986e946f5083
     "file://C:/kamen/clion/kyfs/kydeps/build/Debug/_/glog_6ef6f29b465134ba4e80b546dea7986e946f5083/package.zip"
-    1056ece00a84ded3569d5d23632b7f13b602f20a)
+    9c8bd3247c840dc22deabef08c0febd3f17746e8)
 
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/glog/glog_6ef6f29b465134ba4e80b546dea7986e946f5083/install")
 
