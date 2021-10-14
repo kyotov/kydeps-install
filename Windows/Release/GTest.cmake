@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 GTest
-release-1.10.0 @ https://github.com/google/googletest.git (703bd9caab50b139428cea1aaff9974ebee5742e)
+703bd9caab50b139428cea1aaff9974ebee5742e @ https://github.com/google/googletest.git
 64-bit Windows Release
 
 -------------------------------------------- ]]
@@ -9,10 +9,10 @@ release-1.10.0 @ https://github.com/google/googletest.git (703bd9caab50b139428ce
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(GTest 90841d1e6757f08a1f96f1ef70568b7886993d45
-    "file://C:/kamen/clion/kyfs/kydeps/build/Release/_/GTest_90841d1e6757f08a1f96f1ef70568b7886993d45/package.zip"
-    7f1177945ef680ecba330a7c46d65c016b21684f)
+KyDepsPopulate(GTest 7ef1967c707c88dcabd643db6328d6651d7145ba
+    "file://K:/code/kyfs/kydeps/build__/Release/_/GTest_7ef1967c707c88dcabd643db6328d6651d7145ba/package.zip"
+    d1094122726054c89dfcf07d43e941942115e3b7)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_90841d1e6757f08a1f96f1ef70568b7886993d45/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/GTest/GTest_7ef1967c707c88dcabd643db6328d6651d7145ba/install")
 
 find_package(GTest REQUIRED NO_MODULE)

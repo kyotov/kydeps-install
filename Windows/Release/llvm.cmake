@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 llvm
-https://github.com/llvm/llvm-project.git (28b01c59c93d10ed3a775dd13ff827048b59cda8)
+28b01c59c93d10ed3a775dd13ff827048b59cda8 @ https://github.com/llvm/llvm-project.git
 64-bit Windows Release
 
 -------------------------------------------- ]]
@@ -9,10 +9,10 @@ https://github.com/llvm/llvm-project.git (28b01c59c93d10ed3a775dd13ff827048b59cd
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(llvm 344f7edef7d289d1291c9d2ab7734e0e3e86fd85
-    "https://kydeps.s3.us-east-2.amazonaws.com/llvm_344f7edef7d289d1291c9d2ab7734e0e3e86fd85.zip"
-    a98727b767ab485359db014bc489fcdb33d7fc6e)
+KyDepsPopulate(llvm f6c96dcd9dd6016edc83f74443bc2bfb10ebdc94
+    "file://K:/code/kyfs/kydeps/build__/Release/_/llvm_f6c96dcd9dd6016edc83f74443bc2bfb10ebdc94/package.zip"
+    27c2a634470494e0e05c3787e72e866ff8b28b57)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/llvm/llvm_344f7edef7d289d1291c9d2ab7734e0e3e86fd85/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/llvm/llvm_f6c96dcd9dd6016edc83f74443bc2bfb10ebdc94/install")
 
 find_program(CLANG_TIDY REQUIRED NAMES clang-tidy)

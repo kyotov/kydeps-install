@@ -1,7 +1,7 @@
 #[[ -------------------------------------------
 
 gflags
-v2.2.0 @ https://github.com/gflags/gflags.git (f8a0efe03aa69b3336d8e228b37d4ccb17324b88)
+f8a0efe03aa69b3336d8e228b37d4ccb17324b88 @ https://github.com/gflags/gflags.git
 64-bit Windows Debug
 
 -------------------------------------------- ]]
@@ -9,10 +9,10 @@ v2.2.0 @ https://github.com/gflags/gflags.git (f8a0efe03aa69b3336d8e228b37d4ccb1
 include_guard(GLOBAL)
 
 
-KyDepsPopulate(gflags 51e6578f42998756e5ab59aa3b881ce30dddb52c
-    "file://C:/kamen/clion/kyfs/kydeps/build/Debug/_/gflags_51e6578f42998756e5ab59aa3b881ce30dddb52c/package.zip"
-    80da595e72f5b0ea3dd7f86d89b6c5fad5db7fa8)
+KyDepsPopulate(gflags 3de912354c11e3a96f512fbee8123e205559928f
+    "file://K:/code/kyfs/kydeps/build__/Debug/_/gflags_3de912354c11e3a96f512fbee8123e205559928f/package.zip"
+    f275b193bf2491a0f9c9868a4de37bbae0fb8a0f)
 
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/gflags/gflags_51e6578f42998756e5ab59aa3b881ce30dddb52c/install")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}/_deps/gflags/gflags_3de912354c11e3a96f512fbee8123e205559928f/install")
 
 find_package(gflags REQUIRED NO_MODULE)
